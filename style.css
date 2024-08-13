@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+     height: 100%;
+     width: 100%;
+     background-image: url(images/16311889_rm373batch13-086.jpg);
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#box{
+    height: 85vmin;
+    width: 70vmin;
+    /* background-color: aquamarine; */
+    backdrop-filter: blur(5px);
+    /* border: 2px solid skyblue;
+    border-radius: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.upop{
+    color: orange;
+    
+  
+}
+
+.btn, .diff{
+    height: 8vmin;
+    min-width: 8vmin;
+    border-radius: 1rem;
+    background-color: rgb(145, 139, 139);
+    border: none;
+    margin: 0.2rem;
+    font-size: 3vmin;
+    cursor: pointer;
+    box-shadow: -0.16rem -0.16rem rgb(226, 226, 235);
+}
+
+.btn:hover{
+    transform: scale(1.01);
+    background-color: white;
+    box-shadow: -0.26rem -0.26rem rgb(222, 222, 228);
+    /* transition: 0.3s; */
+}
+
+#display{
+    height: 5vmin;
+    width: 35vmin;
+    background-color: white;
+    border-radius: 0.6rem;
+}
+
+
